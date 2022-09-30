@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: rgb(175, 45, 45);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: rgb(33, 66, 82);
+    width: 200px;
+    font-size: 20px;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+form {
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive
+}
+
+.about {
+    font-size: 20px;
+    line-height: 26px;
+}
+.character li {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    text-shadow: 2px 2px purple;
+}
+@keyframes example{
+    0%{
+        color:brown ;
+        left: 0px;
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: blueviolet;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        left: 0px;
+        color:green ;
+    }
+}
+
+strong {
+    color: rgb(33, 66, 82);
+}
